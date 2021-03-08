@@ -98,7 +98,8 @@ a:hover {
 .features-title {
   color: white;
   text-align: center;
-  border-bottom: 1px solid #EC5242;
+  text-decoration: underline #EC5242;
+  padding-bottom: 1rem;
 }
 
 .card1 {
@@ -107,7 +108,7 @@ a:hover {
 }
 
 .icon {
-  color: #EC5242;
+  color: #ec5242;
   font-size: 2rem;
   padding: 0 1rem 0 1rem;
 }
@@ -124,6 +125,20 @@ a:hover {
   line-height: 1.3rem;
 }
 
+.action {
+  background-color: #ec5242;
+  width: 100%;
+  margin: 0 auto;
+  height: 3rem;
+}
+
+.action-text {
+  text-decoration: none;
+  color: white;
+  font-size: 1.9rem;
+  font-weight: 900;
+}
+
 /*
     ==============================================
                 ****** FOOTER ******
@@ -131,13 +146,14 @@ a:hover {
 */
 
 .top-footer {
-  background-color: #272A31;
+  background-color: #272a31;
   color: white;
 }
 
 .top-footer p {
-  border-bottom: 1px solid #ec5242;
+  text-decoration: underline #EC5242;
 }
+
 .principle {
   font-weight: 700;
   font-size: 1.2rem;
