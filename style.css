@@ -5,11 +5,8 @@
 */
 body {
   margin: 0;
-}
-
-:root {
-  --color-red: #f42;
-  --bg-color-red: #f42;
+  font-family: 'Lato', sans-serif;
+  background-color: #D3D3D3;
 }
 
 *,
@@ -28,11 +25,11 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
+  color: #272A31;
 }
 
 a:hover {
-  color: #333;
+  color: #EC5242
 }
 
 /*
