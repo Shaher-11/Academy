@@ -24,11 +24,11 @@ ul {
 
 a {
   text-decoration: none;
-  color: #272A31;
+  color: #272a31;
 }
 
 a:hover {
-  color: #EC5242
+  color: #ec5242;
 }
 
 /*
@@ -37,15 +37,15 @@ a:hover {
     ==============================================
 */
 #nav1:hover {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 #nav2:hover {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 #nav3:hover {
-  color: #EC5242;
+  color: #ec5242;
 }
 
 /*
@@ -98,7 +98,7 @@ a:hover {
 .features-title {
   color: white;
   text-align: center;
-  text-decoration: underline #EC5242;
+  text-decoration: underline #ec5242;
   padding-bottom: 1rem;
 }
 
@@ -151,10 +151,14 @@ a:hover {
 }
 
 .top-footer p {
-  text-decoration: underline #EC5242;
+  text-decoration: underline #ec5242;
 }
 
 .principle {
   font-weight: 700;
   font-size: 1.2rem;
+}
+
+.footer-img {
+  width: 20%;
 }
