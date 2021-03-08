@@ -33,7 +33,7 @@ a:hover {
 
 /*
     ==============================================
-                ****** FOOTER ******
+                ****** NAVBAR ******
     ==============================================
 */
 #nav1:hover {
@@ -46,6 +46,30 @@ a:hover {
 
 #nav3:hover {
   color: #EC5242;
+}
+
+/*
+    ==============================================
+                ****** HEAD SECTION ******
+    ==============================================
+*/
+.head {
+  background-color: #d3d3d3;
+}
+
+.head h2 {
+  color: #EC5242;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.head p {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #EC5242;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 /*
