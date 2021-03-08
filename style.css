@@ -25,38 +25,33 @@ ul {
 a {
   text-decoration: none;
   color: #272a31;
-}
-
-a:hover {
-  color: #ec5242;
+  font-size: 1.5rem;
 }
 
 /*
-    ==============================================
-                ****** NAVBAR ******
-    ==============================================
-*/
+      ==============================================
+                  ****** NAVBAR ******
+      ==============================================
+  */
 #nav1:hover {
   color: #ec5242;
 }
 
 #nav2:hover {
-  color: #ec5242;
+  color: #ec5242 !important;
 }
 
 #nav3:hover {
-  color: #ec5242;
+  color: #ec5242 !important;
 }
 
 /*
-    ==============================================
-                ****** HEAD SECTION ******
-    ==============================================
-*/
+      ==============================================
+                  ****** HEAD SECTION ******
+      ==============================================
+  */
 .head {
-  background-image:
-    linear-gradient(to bottom, rgba(3, 3, 3, 0.52), rgba(206, 86, 30, 0.73)),
-    url(assets/head.jpg);
+  background-image: linear-gradient(to bottom, rgba(3, 3, 3, 0.52), rgba(206, 86, 30, 0.73)), url(assets/head.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -84,11 +79,10 @@ a:hover {
 }
 
 /*
-    ==============================================
-                ****** ACADEMY FEATURES ******
-    ==============================================
-*/
-
+      ==============================================
+                  ****** ACADEMY FEATURES ******
+      ==============================================
+  */
 .features {
   background-color: #272a31;
   margin-top: 0.2rem;
@@ -139,12 +133,15 @@ a:hover {
   font-weight: 900;
 }
 
-/*
-    ==============================================
-                ****** FOOTER ******
-    ==============================================
-*/
+.action-text:hover {
+  color: #272a31;
+}
 
+/*
+      ==============================================
+                  ****** FOOTER ******
+      ==============================================
+  */
 .top-footer {
   background-color: #272a31;
   color: white;
@@ -154,11 +151,116 @@ a:hover {
   text-decoration: underline #ec5242;
 }
 
-.principle {
-  font-weight: 700;
-  font-size: 1.2rem;
+.base-footer {
+  background-color: #d3d3d3;
 }
 
-.footer-img {
-  width: 20%;
+.social i {
+  color: black;
+  font-size: 2rem;
+}
+
+/*
+      ==============================================
+            ****** MEDIA QUERIES FOR TABLET ******
+      ==============================================
+  */
+@media only screen and (min-width: 768px) {
+  .card1 {
+    font-size: 1.5rem;
+  }
+
+  .title,
+  .text {
+    padding-top: 1rem;
+  }
+
+  .icon {
+    font-size: 2.5rem;
+  }
+
+  .action-text {
+    padding: 0 1rem 0 12rem;
+  }
+
+  .top-footer {
+    font-size: 2rem;
+  }
+
+  .base-footer {
+    height: 210px;
+  }
+
+  .social i {
+    font-size: 3rem;
+  }
+
+  .social-icon {
+    padding: 1rem;
+    padding-top: 2rem;
+  }
+
+  .intro {
+    font-size: 2rem;
+    padding-top: 2rem;
+    color: #272a31;
+  }
+}
+
+/*
+      ==============================================
+            ****** MEDIA QUERIES FOR DESKTOP ******
+      ==============================================
+  */
+@media only screen and (min-width: 1024px) {
+  #nav1 {
+    padding-left: 25rem;
+    justify-content: space-around;
+  }
+
+  #nav2 {
+    padding-left: 17rem;
+  }
+
+  #nav3 {
+    padding-left: 12rem;
+  }
+
+  .head {
+    background-size: cover;
+  }
+
+  .content {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+
+  .card1 {
+    font-size: 1.5rem;
+  }
+
+  .title,
+  .text {
+    padding-top: 1rem;
+  }
+
+  .icon {
+    font-size: 2.5rem;
+  }
+
+  .title1 {
+    padding-left: 6rem;
+  }
+
+  .title2 {
+    padding-right: 0.2rem;
+  }
+
+  .title3 {
+    padding-right: 4.2rem;
+  }
+
+  .action-text {
+    padding: 0 1rem 0 35rem;
+  }
 }

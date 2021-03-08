@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/MkrtichSargsyan/linters-config/issues"
   },
-  "homepage": "https://github.com/MkrtichSargsyan/linters-config#readme"
+  "homepage": "https://github.com/MkrtichSargsyan/linters-config#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }
