@@ -36,3 +36,30 @@ a:hover {
                 ****** FOOTER ******
     ==============================================
 */
+#nav1:hover {
+  color: #EC5242;
+}
+
+#nav2:hover {
+  color: #EC5242;
+}
+
+#nav3:hover {
+  color: #EC5242;
+}
+
+/*
+    ==============================================
+                ****** FOOTER ******
+    ==============================================
+*/
+
+.top-footer {
+  background-color: #272A31;
+  color: white;
+}
+
+.principle {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
