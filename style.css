@@ -79,10 +79,44 @@ a:hover {
 
 /*
     ==============================================
-                ****** FOOTER ******
+                ****** ACADEMY FEATURES ******
     ==============================================
 */
 
+.features {
+  background-color: #272a31;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.features-title {
+  color: white;
+  text-align: center;
+  border-bottom: 1px solid #EC5242;
+}
+
+.card1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  color: #EC5242;
+  font-size: 2rem;
+  padding: 0 1rem 0 1rem;
+}
+
+.title {
+  color: #EC5242;
+  text-align: center;
+  padding: 0 1rem 0 1rem;
+  line-height: 1.3rem;
+}
+
+.text {
+  color: white;
+  line-height: 1.3rem;
+}
 
 /*
     ==============================================
