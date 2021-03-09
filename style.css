@@ -197,7 +197,12 @@ a {
 
 .social i {
   color: black;
-  font-size: 2rem;
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+
+.intro {
+  font-size: 1.5rem;
 }
 
 /*
@@ -232,18 +237,21 @@ a {
   }
 
   .social i {
-    font-size: 3rem;
+    font-size: 1.7rem;
   }
 
   .social-icon {
-    padding: 1rem;
-    padding-top: 2rem;
+    padding: 0.5rem;
   }
 
   .intro {
-    font-size: 2rem;
-    padding-top: 2rem;
+    font-size: 1.5rem;
+    padding-top: 1rem;
     color: #272a31;
+  }
+
+  .sign-txt {
+    font-size: 1.5rem;
   }
 }
 
@@ -302,5 +310,13 @@ a {
 
   .action-text {
     padding: 0 1rem 0 35rem;
+  }
+
+  .intro {
+    font-size: 2rem;
+  }
+
+  .social i {
+    font-size: 2.7rem;
   }
 }
