@@ -145,7 +145,6 @@ a {
 
 .courses {
   background-color: #d3d3d3;
-  margin-bottom: 1rem;
 }
 
 .courses h2 {
@@ -161,6 +160,22 @@ a {
   margin: 0 auto;
 }
 
+.action-btn {
+  background-color: #d3d3d3;
+}
+/*
+      ==============================================
+                  ****** Instructors styling ******
+      ==============================================
+  */
+
+.person {
+  width: 15%;
+}
+
+.my-btn {
+  background-color: #ec5242 !important;
+}
 
 /*
       ==============================================
