@@ -65,7 +65,7 @@ a {
 }
 
 .top-head {
-  font-size: 2rem;
+  font-size: 1rem;
   font-weight: 1000;
   text-transform: uppercase;
   text-align: center;
@@ -216,6 +216,10 @@ a {
       ==============================================
   */
 @media only screen and (min-width: 768px) {
+  .top-head {
+    font-size: 2rem;
+  }
+
   .card1 {
     font-size: 1.5rem;
   }
@@ -285,6 +289,10 @@ a {
 
   .head h2 {
     padding-top: 13rem;
+  }
+
+  .top-head {
+    font-size: 2rem;
   }
 
   .card1 {
