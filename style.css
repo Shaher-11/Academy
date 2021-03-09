@@ -65,7 +65,7 @@ a {
 }
 
 .top-head {
-  font-size: 1rem;
+  font-size: 2rem;
   font-weight: 1000;
   text-transform: uppercase;
   text-align: center;
@@ -176,7 +176,7 @@ a {
 
 .my-card {
   border: 5px solid white;
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
   padding: 1rem;
   line-height: 1.7rem;
@@ -211,7 +211,8 @@ a {
   color: white;
 }
 
-.top-footer p {
+.top-footer p,
+.test {
   text-decoration: underline #ec5242;
 }
 
@@ -281,6 +282,11 @@ a {
   .sign-txt {
     font-size: 1.5rem;
   }
+
+  .my-card {
+    width: 90%;
+  }
+
 }
 
 /*
@@ -349,5 +355,9 @@ a {
 
   .social i {
     font-size: 2.7rem;
+  }
+
+  .my-card {
+    width: 60%;
   }
 }
