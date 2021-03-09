@@ -33,6 +33,7 @@ a {
                   ****** NAVBAR ******
       ==============================================
   */
+
 #nav1:hover {
   color: #ec5242;
 }
@@ -80,6 +81,10 @@ a {
 
 .credit {
   font-size: 0.7rem;
+}
+
+.no-d {
+  display: none;
 }
 
 /*
@@ -286,7 +291,6 @@ a {
   .my-card {
     width: 90%;
   }
-
 }
 
 /*
@@ -347,6 +351,10 @@ a {
 
   .action-text {
     padding: 0 1rem 0 35rem;
+  }
+
+  .partner-icon {
+    font-size: 2rem;
   }
 
   .intro {
