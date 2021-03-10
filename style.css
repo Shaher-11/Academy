@@ -198,6 +198,40 @@ a {
 
 /*
       ==============================================
+                  ****** SELECT COURSE styling ******
+      ==============================================
+  */
+
+.ticket {
+  background-color: #d3d3d3;
+}
+
+.buy {
+  text-decoration: underline #ec5242;
+}
+
+.step {
+  border: 3px solid gray;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.step1,
+.price {
+  color: #ec5242;
+}
+
+.pay {
+  color: #272a31;
+}
+
+.pay:hover {
+  color: #ec5242;
+}
+
+/*
+      ==============================================
                   ****** Instructors styling ******
       ==============================================
   */
@@ -299,6 +333,10 @@ a {
   .sign-txt {
     font-size: 1.5rem;
   }
+
+  .step {
+    margin-left: 11rem;
+  }
 }
 
 /*
@@ -381,5 +419,9 @@ a {
 
   .my-card {
     width: 60%;
+  }
+
+  .step {
+    margin-left: 32rem;
   }
 }
