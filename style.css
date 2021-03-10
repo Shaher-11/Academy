@@ -202,12 +202,13 @@ a {
       ==============================================
   */
 
-.person {
-  width: 15%;
+.instructor {
+  color: #ec5242;
+  text-decoration: underline black;
 }
 
-.my-btn {
-  background-color: #ec5242 !important;
+.lead {
+  color: #ec5242;
 }
 
 /*
