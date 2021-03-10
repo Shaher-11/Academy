@@ -55,6 +55,7 @@ a {
 .logo {
   color: #ec5242;
 }
+
 /*
       ==============================================
                   ****** HEAD SECTION ******
@@ -465,10 +466,10 @@ a {
   }
 
   .step {
-    margin-left: 32rem;
+    margin-left: 19rem;
   }
 
   .my-caret {
-    margin-left: 42rem;
+    margin-left: 37rem;
   }
 }

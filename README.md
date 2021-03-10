@@ -6,7 +6,8 @@
 
 ![screenshot](./assets/project.png)
 
-Academy website for web development and programming courses
+Academy website for web development and programming courses this is the capstone project of the html and css module,
+The project build upon a design provided by Cindy Shin and has been personalized to align with the business vision. 
 
 ## Built With
 
@@ -18,7 +19,7 @@ Academy website for web development and programming courses
 
 [Live Demo Link](https://deevlopacademy.netlify.app/)
 
-[Live Video Demo Link](https://www.loom.com/share/e7e55b0c77bc4fe598d7bcc49cc06046)
+[Live Video Demo Link](https://www.loom.com/share/2ba39e8fa1a34a40b1e4a4b32c617f85)
 
 
 ## Getting Started
