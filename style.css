@@ -59,17 +59,15 @@ a {
 
 .head h2 {
   color: #ec5242;
-  text-align: center;
   font-size: 1.5rem;
   font-weight: 900;
-  padding-top: 7rem;
+  padding-top: 1rem;
 }
 
 .top-head {
   font-size: 2rem;
   font-weight: 1000;
   text-transform: uppercase;
-  text-align: center;
   background: -webkit-linear-gradient(rgb(224, 41, 41), rgb(90, 39, 39));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -245,6 +243,13 @@ a {
     font-size: 2rem;
   }
 
+  .hom-head,
+  .acd,
+  #lefty,
+  #big-title {
+    margin-left: 5rem;
+  }
+
   .card1 {
     font-size: 1.5rem;
   }
@@ -317,13 +322,23 @@ a {
   }
 
   .head h2 {
-    padding-top: 13rem;
+    padding-top: 1rem;
   }
 
   .top-head {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
+  .my-font {
+    font-size: 4rem;
+  }
+
+  .hom-head,
+  .acd,
+  #lefty,
+  #big-title {
+    margin-left: 5rem;
+  }
   .card1 {
     font-size: 1.5rem;
   }
