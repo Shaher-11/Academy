@@ -175,6 +175,18 @@ a {
   background-color: #d3d3d3;
 }
 
+.course-table {
+  background-image: url(assets/envelope-border.png);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 35px 5px;
+  padding: 0;
+}
+
+.hide {
+  color: #d3d3d3;
+}
+
 /*
       ==============================================
             ****** ABOUT PAGE STYLES ******
@@ -222,6 +234,15 @@ a {
 .step1,
 .price {
   color: #ec5242;
+}
+
+.traingle {
+  color: #ec5242;
+  font-size: 7rem;
+}
+
+.my-caret {
+  margin-left: 9rem;
 }
 
 .pay {
@@ -336,8 +357,12 @@ a {
     font-size: 1.5rem;
   }
 
+  .my-caret {
+    margin-left: 22rem;
+  }
+
   .step {
-    margin-left: 11rem;
+    margin-left: 1rem;
   }
 }
 
@@ -428,5 +453,9 @@ a {
 
   .step {
     margin-left: 32rem;
+  }
+
+  .my-caret {
+    margin-left: 42rem;
   }
 }
