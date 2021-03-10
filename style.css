@@ -91,7 +91,9 @@ a {
       ==============================================
   */
 .features {
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgb(48, 46, 46)), url(assets/features-bg.jpeg); 
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgb(22, 22, 22)),
+    url(assets/features-bg.jpeg);
   margin-top: 0.2rem;
   margin-bottom: 0.2rem;
 }
@@ -354,7 +356,10 @@ a {
     padding-left: 6rem;
   }
 
-  #nav3 {
+  #nav3,
+  #join1,
+  #join2,
+  #join3 {
     padding-left: 7rem;
   }
 
