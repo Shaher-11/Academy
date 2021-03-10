@@ -46,6 +46,15 @@ a {
   color: #ec5242 !important;
 }
 
+#nav5 {
+  color: #272a31;
+  padding-left: 0.2rem;
+  font-size: 2rem;
+}
+
+.logo {
+  color: #ec5242;
+}
 /*
       ==============================================
                   ****** HEAD SECTION ******
@@ -393,6 +402,10 @@ a {
     color: #ec5242;
     position: absolute;
     right: 3rem;
+  }
+
+  #nav5 {
+    padding-left: 3rem;
   }
 
   .head {
