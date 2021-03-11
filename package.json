@@ -7,7 +7,7 @@
     "hint": "6.0.x",
     "stylelint": "13.3.x",
     "stylelint-config-standard": "20.0.x",
-    "stylelint-csstree-validator": "^1.8.0",
+    "stylelint-csstree-validator": "^1.9.0",
     "stylelint-scss": "3.17.x"
   },
   "scripts": {
@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/MkrtichSargsyan/linters-config/issues"
   },
-  "homepage": "https://github.com/MkrtichSargsyan/linters-config#readme"
+  "homepage": "https://github.com/MkrtichSargsyan/linters-config#readme",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
 }

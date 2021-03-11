@@ -5,11 +5,7 @@
 */
 body {
   margin: 0;
-}
-
-:root {
-  --color-red: #f42;
-  --bg-color-red: #f42;
+  font-family: 'Lato', sans-serif;
 }
 
 *,
@@ -28,15 +24,457 @@ ul {
 
 a {
   text-decoration: none;
-  color: white;
-}
-
-a:hover {
-  color: #333;
+  color: #272a31;
+  font-size: 1.5rem;
 }
 
 /*
-    ==============================================
-                ****** GLOBAL ******
-    ==============================================
-*/
+      ==============================================
+                  ****** NAVBAR ******
+      ==============================================
+  */
+
+#nav1:hover {
+  color: #ec5242;
+}
+
+#nav2:hover {
+  color: #ec5242 !important;
+}
+
+#nav3:hover {
+  color: #ec5242 !important;
+}
+
+#nav5 {
+  color: #272a31;
+  padding-left: 0.2rem;
+  font-size: 2rem;
+}
+
+.logo {
+  color: #ec5242;
+}
+
+/*
+      ==============================================
+                  ****** HEAD SECTION ******
+      ==============================================
+  */
+.head {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.884), rgba(247, 242, 241, 0.952)), url(assets/head-sec.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.head h2 {
+  color: #ec5242;
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding-top: 1rem;
+}
+
+.top-head {
+  font-size: 2rem;
+  font-weight: 1000;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(rgb(224, 41, 41), rgb(90, 39, 39));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.my-ved {
+  width: 100%;
+}
+
+.credit {
+  font-size: 0.7rem;
+}
+
+.no-d {
+  display: none;
+}
+
+/*
+      ==============================================
+                  ****** ACADEMY FEATURES ******
+      ==============================================
+  */
+.features {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgb(22, 22, 22)),
+    url(assets/features-bg.jpeg);
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.features-title {
+  color: white;
+  text-align: center;
+  text-decoration: underline #ec5242;
+  padding-bottom: 3rem;
+  padding-top: 5rem;
+}
+
+.my-cards {
+  margin-bottom: 7rem;
+  padding: 2rem;
+}
+
+.card1 {
+  border: 2px solid white;
+  margin: 4px;
+}
+
+.icon {
+  color: #ec5242;
+  font-size: 2rem;
+}
+
+.title {
+  color: #ec5242;
+}
+
+.text {
+  color: white;
+  line-height: 1.3rem;
+}
+
+.action {
+  background-color: #ec5242;
+  width: 100%;
+  margin: 0 auto;
+  height: 3rem;
+}
+
+.see a {
+  color: white;
+  font-size: 2rem;
+}
+
+.action-text {
+  text-decoration: none;
+  color: white;
+  font-size: 1.9rem;
+  font-weight: 900;
+}
+
+.action-text:hover {
+  color: #272a31;
+}
+
+/*
+      ==============================================
+            ****** COURSES PAGE STYLES ******
+      ==============================================
+  */
+
+.courses {
+  background-color: #d3d3d3;
+}
+
+.courses h2 {
+  text-align: center;
+  color: #ec5242;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: underline #272a31;
+}
+
+.our-courses {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.action-btn {
+  background-color: #d3d3d3;
+}
+
+.course-table {
+  background-image: url(assets/envelope-border.png);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 35px 5px;
+  padding: 0;
+}
+
+.hide {
+  color: #d3d3d3;
+}
+
+/*
+      ==============================================
+            ****** ABOUT PAGE STYLES ******
+      ==============================================
+  */
+
+#about-title {
+  text-align: center;
+}
+
+.my-card {
+  border: 5px solid white;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem;
+  line-height: 1.7rem;
+}
+
+.txt {
+  font-weight: 900;
+  font-size: 2rem;
+}
+
+/*
+      ==============================================
+                  ****** SELECT COURSE styling ******
+      ==============================================
+  */
+
+.buy {
+  text-decoration: underline #ec5242;
+}
+
+.step {
+  border: 3px solid gray;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 10px;
+}
+
+.step1,
+.price {
+  color: #ec5242;
+}
+
+.traingle {
+  color: #ec5242;
+  font-size: 7rem;
+}
+
+.my-caret {
+  margin-left: 9rem;
+}
+
+.pay {
+  color: #272a31;
+}
+
+.pay:hover {
+  color: #ec5242;
+}
+
+/*
+      ==============================================
+                  ****** Instructors styling ******
+      ==============================================
+  */
+
+.instructor {
+  color: #ec5242;
+  text-decoration: underline black;
+}
+
+.lead {
+  color: #ec5242;
+}
+
+/*
+      ==============================================
+                  ****** FOOTER ******
+      ==============================================
+  */
+.top-footer {
+  background-color: #272a31;
+  color: white;
+}
+
+.top-footer p,
+.test {
+  text-decoration: underline #ec5242;
+}
+
+.base-footer {
+  background-color: #d3d3d3;
+}
+
+.social i {
+  color: black;
+  font-size: 2.5rem;
+  padding: 1rem;
+}
+
+.intro {
+  font-size: 1.5rem;
+}
+
+/*
+      ==============================================
+            ****** MEDIA QUERIES FOR TABLET ******
+      ==============================================
+  */
+@media only screen and (min-width: 768px) {
+  .top-head {
+    font-size: 2rem;
+  }
+
+  .hom-head,
+  .acd,
+  #lefty,
+  #big-title {
+    margin-left: 5rem;
+  }
+
+  .card1 {
+    font-size: 1.5rem;
+  }
+
+  .title,
+  .text {
+    padding-top: 1rem;
+  }
+
+  .icon {
+    font-size: 2.5rem;
+  }
+
+  .action-text {
+    padding: 0 1rem 0 12rem;
+  }
+
+  .top-footer {
+    font-size: 2rem;
+  }
+
+  .base-footer {
+    height: 210px;
+  }
+
+  .social i {
+    font-size: 1.7rem;
+  }
+
+  .social-icon {
+    padding: 0.5rem;
+  }
+
+  .intro {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    color: #272a31;
+  }
+
+  .sign-txt {
+    font-size: 1.5rem;
+  }
+
+  .my-caret {
+    margin-left: 22rem;
+  }
+
+  .first-step {
+    margin-right: 20%;
+  }
+
+  .step {
+    margin-left: 1rem;
+  }
+}
+
+/*
+      ==============================================
+            ****** MEDIA QUERIES FOR DESKTOP ******
+      ==============================================
+  */
+@media only screen and (min-width: 1024px) {
+  #nav1 {
+    padding-left: 15rem;
+    justify-content: space-around;
+  }
+
+  #nav2 {
+    padding-left: 6rem;
+  }
+
+  #nav3,
+  #join1,
+  #join2,
+  #join3 {
+    padding-left: 7rem;
+  }
+
+  #nav4 {
+    border: 5px solid #ec5242;
+    color: #ec5242;
+    position: absolute;
+    right: 3rem;
+  }
+
+  #nav5 {
+    padding-left: 3rem;
+  }
+
+  .head {
+    background-size: cover;
+  }
+
+  .head h2 {
+    padding-top: 1rem;
+  }
+
+  .top-head {
+    font-size: 3rem;
+  }
+
+  .my-font {
+    font-size: 4rem;
+  }
+
+  .hom-head,
+  .acd,
+  #lefty,
+  #big-title {
+    margin-left: 5rem;
+  }
+
+  .card1 {
+    font-size: 1.5rem;
+  }
+
+  .title,
+  .text {
+    padding-top: 1rem;
+  }
+
+  .icon {
+    font-size: 2.5rem;
+  }
+
+  .action-text {
+    padding: 0 1rem 0 35rem;
+  }
+
+  .partner-icon {
+    font-size: 2rem;
+  }
+
+  .intro {
+    font-size: 2rem;
+  }
+
+  .social i {
+    font-size: 2.7rem;
+  }
+
+  .my-card {
+    width: 60%;
+  }
+
+  .step {
+    margin-left: 25%;
+  }
+
+  .my-caret {
+    margin-left: 48%;
+  }
+}
