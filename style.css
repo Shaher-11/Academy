@@ -147,6 +147,11 @@ a {
   height: 3rem;
 }
 
+.see a {
+  color: white;
+  font-size: 2rem;
+}
+
 .action-text {
   text-decoration: none;
   color: white;
@@ -225,10 +230,6 @@ a {
                   ****** SELECT COURSE styling ******
       ==============================================
   */
-
-.ticket {
-  background-color: #d3d3d3;
-}
 
 .buy {
   text-decoration: underline #ec5242;
@@ -371,6 +372,10 @@ a {
     margin-left: 22rem;
   }
 
+  .first-step {
+    margin-right: 20%;
+  }
+
   .step {
     margin-left: 1rem;
   }
@@ -466,10 +471,10 @@ a {
   }
 
   .step {
-    margin-left: 19rem;
+    margin-left: 25%;
   }
 
   .my-caret {
-    margin-left: 37rem;
+    margin-left: 48%;
   }
 }
