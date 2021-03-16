@@ -2,7 +2,7 @@
 
 # Academy
 
-> One paragraph statement about the project.
+> One paragraph statement about the
 
 ![screenshot](./assets/project.png)
 
