@@ -2,7 +2,6 @@
 
 # Academy
 
-> One 
 ![screenshot](./assets/project.png)
 
 Academy website for web development and programming courses this is the capstone project of the html and css module,
