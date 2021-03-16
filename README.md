@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Academy-blueviolet)
 
-# Academy
+# Academy Website
 
 ![screenshot](./assets/project.png)
 
